@@ -3,8 +3,8 @@ export default function home(){
   <div>
 
 
-    
-    <p>Hi</p>
+
+    <p>i gate</p>
   </div>
   )
 
