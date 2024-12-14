@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 export default function Home() {
     return (
       <div>
@@ -14,8 +15,10 @@ export default function Home() {
          
           <div className="mb-8">
             <Image
-              src="/path-to-image.jpg"
+              src="/images/ss.png"
               alt="Graph and LLM representation"
+              width={600}
+              height={400}
               className="rounded-md shadow-lg border border-gray-200"
             />
           </div>
@@ -23,7 +26,7 @@ export default function Home() {
           
           <div className="max-w-2xl text-justify text-gray-800 leading-relaxed">
             <p>
-              "I'm Arjun Santhosh, and this summer I decided to learn programming properly, this included web-development, app-development and other scripting languages like Python. Admittedly I wasn't able to explore too deeply into these topics, however "
+              I am Arjun Santhosh, and this summer I decided to learn programming properly, this included web-development, app-development and other scripting languages like Python. Admittedly I was not able to explore too deeply into these topics, however 
             </p>
           </div>
         </div>

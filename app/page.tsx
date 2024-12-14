@@ -16,9 +16,7 @@ export default function Home() {
         
         <div className="max-w-2xl text-justify text-gray-800 leading-relaxed">
           <p>
-            I remember reading the introduction to Jessica Livingston’s Founders at Work
-            and thinking how much it sounded just like Paul Graham. Only to realize it
-            was written by him. Something about the way he writes is very distinguishable...
+            I remembe
           </p>
         </div>
       </div>
