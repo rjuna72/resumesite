@@ -11,13 +11,7 @@ export default function Home() {
           </div>
   
          
-          <div className="mb-8">
-            <img
-              src="/path-to-image.jpg"
-              alt="Graph and LLM representation"
-              className="rounded-md shadow-lg border border-gray-200"
-            />
-          </div>
+        
   
           
           <div className="max-w-2xl text-justify text-gray-800 leading-relaxed">

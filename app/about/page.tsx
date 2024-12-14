@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export default function Home() {
     return (
       <div>
@@ -12,7 +13,7 @@ export default function Home() {
   
          
           <div className="mb-8">
-            <img
+            <Image
               src="/path-to-image.jpg"
               alt="Graph and LLM representation"
               className="rounded-md shadow-lg border border-gray-200"
@@ -22,7 +23,7 @@ export default function Home() {
           
           <div className="max-w-2xl text-justify text-gray-800 leading-relaxed">
             <p>
-              I'm Arjun Santhosh, and this summer I decided to learn programming properly, this included web-development, app-development and other scripting languages like Python. Admittedly I wasn't able to explore too deeply into these topics, however 
+              "I'm Arjun Santhosh, and this summer I decided to learn programming properly, this included web-development, app-development and other scripting languages like Python. Admittedly I wasn't able to explore too deeply into these topics, however "
             </p>
           </div>
         </div>
