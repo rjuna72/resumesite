@@ -5,7 +5,7 @@ export default function Home() {
       <div>
   
   
-        <div className="h-auto min-w-full bg-gray-50 text-black flex flex-col items-center p-6">
+        <div className="h-screen min-w-full bg-gray-50 text-black flex flex-col items-center p-6">
           
           <div className="text-center mb-8">
             <h1 className="text-3xl font-bold mb-2">A Bit About Me</h1>
@@ -17,8 +17,8 @@ export default function Home() {
             <Image
               src="/images/ss.png"
               alt="Graph and LLM representation"
-              width={600}
-              height={400}
+              width={500}
+              height={300}
               className="rounded-md shadow-lg border border-gray-200"
             />
           </div>
