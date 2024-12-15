@@ -18,7 +18,7 @@ export default function Home() {
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos magni numquam enim voluptatum, dicta provident aliquid quis quas. Quo dolorem rerum maxime animi minima unde est asperiores optio laudantium sint.
             </p>
-            <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
           </div>
         </div>
       </div>
