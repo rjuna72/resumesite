@@ -1,8 +1,11 @@
 import Image from 'next/image';
+import Navbar from '../navbar';
 
 export default function Home() {
     return (
       <div>
+        <Navbar />
+
   
   
         <div className="h-screen min-w-full bg-gray-50 text-black flex flex-col items-center p-6">
@@ -15,9 +18,9 @@ export default function Home() {
          
           <div className="mb-8">
             <Image
-              src="/images/ss.png"
+              src="/images/pfp.jpg"
               alt="Graph and LLM representation"
-              width={500}
+              width={300}
               height={300}
               className="rounded-md shadow-lg border border-gray-200"
             />

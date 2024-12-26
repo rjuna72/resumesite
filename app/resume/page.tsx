@@ -1,7 +1,9 @@
+import Navbar from '../navbar';
+
 export default function Home() {
     return (
       <div>
-  
+        <Navbar/>
   
         <div className="h-auto min-w-full bg-gray-50 text-black flex flex-col items-center p-6">
           
