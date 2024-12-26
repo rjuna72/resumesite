@@ -4,7 +4,10 @@ export default function Home() {
   return (
     <div>
       <div className="h-auto min-w-full bg-gray-50 text-black flex flex-col items-center bg-notebook p-6">
+      <div className='pt-2'>
       <Navbar />
+      </div>
+      
         {/* Page Title */}
         <div className="text-center mb-8">
           <h1 className="text-3xl font-bold mb-2">Resume</h1>
@@ -41,7 +44,7 @@ export default function Home() {
       href="https://savr.au" 
       target="_blank" 
       rel="noopener noreferrer" 
-      className=" hover:underline"
+      className="text-600 hover:underline"
     >
       Savr.au
     </a>
