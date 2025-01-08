@@ -7,7 +7,7 @@ export default function Home() {
       <div className="hidden md:flex space-x-4 absolute top-6">
         <Link href="/" className="hover:underline text-sm sm:text-base">Home</Link>
         <Link href="/about" className="hover:underline text-red-600 text-sm sm:text-base">About</Link>
-        <Link href="/contact" className="hover:underline text-green-600 text-sm sm:text-base">Contact</Link>
+        <Link href="/projects" className="hover:underline text-green-600 text-sm sm:text-base">Projects</Link>
         <Link href="/resume" className="hover:underline text-blue-700 text-sm sm:text-base">Resume</Link>
       </div>
 

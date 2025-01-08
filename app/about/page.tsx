@@ -23,7 +23,7 @@ export default function Home() {
         {/* Profile Image */}
         <div className="mb-6 sm:mb-8">
           <Image
-            src="/images/pfp.jpg"
+            src="/images/pfp.png"
             alt="Profile picture"
             width={200}
             height={200}
