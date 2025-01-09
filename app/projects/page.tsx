@@ -14,7 +14,7 @@ export default function Home() {
     
 
         <div className="flex space-x-4 pt-11 items-center justify-center">
-        <h1>Coming Soon !</h1>
+        <p>Coming Soon !</p>
    
        
         </div>

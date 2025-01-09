@@ -72,12 +72,26 @@ html {
 }
 
 
+p {
+  font-family: "Nothing You Could Do", cursive;
+}
+
+.nycdfont {
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 1000;
+}
 
 h1, h2, h3 {
   font-family: 'PT Serif', serif;
   margin: 0;
   line-height: 1.3em;
   
+}
+
+.pmarker {
+  font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 a, h2 a, h3  a{
