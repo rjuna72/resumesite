@@ -5,10 +5,10 @@ export default function Home() {
     <div className="h-screen bg-gray-50 flex flex-col justify-center items-center text-black p-4 sm:p-6 bg-notebook">
       {/* Navbar */}
       <div className="hidden md:flex space-x-4 absolute top-6">
-        <Link href="/" className="hover:underline nycdfont text-sm sm:text-base mt-4 pt-44">Home</Link>
-        <Link href="/about" className="hover:underline nycdfont text-red-600 text-sm sm:text-base pt-72 mt-3">About</Link>
-        <Link href="/projects" className="hover:underline nycdfont text-green-600 text-sm sm:text-base mt-4 pt-96">Projects</Link>
-        <Link href="/resume" className="hover:underline nycdfont text-blue-700 text-sm sm:text-base pt-60 mt-64">Resume</Link>
+        <Link href="/" className="hover:underline nycdfont text-sm sm:text-base mt-8 pt-60">Home</Link>
+        <Link href="/about" className="hover:underline nycdfont text-red-600 text-sm sm:text-base pt-60 mt-8">About</Link>
+        <Link href="/projects" className="hover:underline nycdfont text-green-600 text-sm sm:text-base mt-8 pt-60">Writing</Link>
+        <Link href="/resume" className="hover:underline nycdfont text-blue-700 text-sm sm:text-base pt-60 mt-8">Resume</Link>
 
 
         <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Permanent+Marker&display=swap" rel="stylesheet"></link>

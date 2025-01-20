@@ -32,8 +32,7 @@ export default function Home() {
             </p>
           </section>
 
-          <hr className="h-px my-8 bg-gray-200 border-0" />
-
+          
           {/* Experience Section */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Experience</h2>
@@ -99,7 +98,7 @@ export default function Home() {
             </div>
           </section>
 
-          <hr className="h-px my-8 bg-gray-200 border-0" />
+          
 
           {/* Technical Skills Section */}
           <section className="mb-8">
@@ -110,7 +109,6 @@ export default function Home() {
             </p>
           </section>
 
-          <hr className="h-px my-8 bg-gray-200 border-0" />
 
           {/* Volunteering Section */}
           <section>
